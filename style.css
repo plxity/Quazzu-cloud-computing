@@ -1,0 +1,52 @@
+.section-podcast{
+  position: relative;
+  background: url(./img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid  5px;
+  border-bottom: #333 solid  5px;
+  min-height:180px;
+}
+.section-podcast .primary-overlay{
+  background:  rgba(112, 81, 176, 0.7);
+}
+.primary-overlay{
+  background: rgba(112, 81, 176, 0.9);
+  top:0;
+ left:0;
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  position: absolute;
+
+
+}
+.main-header {
+    background: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    color: #fff;
+  }
+  
+  .main-header .showcase {
+    padding-top: 100px;
+  }
+  
+  .active-link {
+    color: #d847f1;
+    font-weight: bold;
+  }
+  .section-developers{
+    background: url(./img/code.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-top:#333 solid 5px;
+    border-bottom:#333 solid 5px;
+    min-height: 160px;
+
+  }
+  .carousel-item p{
+    font-size: 20px !important;
+  }

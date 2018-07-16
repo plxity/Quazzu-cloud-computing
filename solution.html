@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./materialize-v1.0.0-rc.2/materialize/css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="style.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Materialize Theme</title>
+</head>
+
+<body>
+  <!-- Header -->
+    <header class="main-header">
+        <nav class="transparent">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="" class="brand-logo">Quazzu</a>
+              <a href="" class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li>
+                   <a class="" href="index.html" >Home</a>
+                </li>
+                <li>
+                    <a href="#" class="active-link">Solutions</a>
+                </li>
+                <li>
+                    <a href="#s" >SignUp</a>
+                </li>
+                <li>
+                        <a href="#" class="btn purple">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+      </div>
+      <ul class="sidenav" id="mobile-nav">
+            <li>
+                    <a href="#home" >Home</a>
+                 </li>
+                 <li>
+                     <a href="#" >Solutions</a>
+                 </li>
+                 <li>
+                     <a href="#s" >SignUp</a>
+                 </li>
+                 <li>
+                         <a href="#" class="btn purple">Login</a>
+                 </li>
+        </ul>
+
+    <!-- Showcase -->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h5>Welcome To Quazzu</h5>
+          <h1>Build For The Future</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit fugit deserunt quos provident aliquam inventore.</p>
+          <br>
+          <br>
+          <a href="solutions.html" class="btn btn-large white purple-text">Learn More</a>
+          <a href="signup.html" class="btn btn-large purple white-text">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ <h1 class="center deep-purple-text lighten-1">Page Under construction</h1>
+  <!--Footer-->
+  <footer class="page-footer deep-purple lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Quazzu Limited</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam repudiandae autem quasi in laudantium. Odio quia hic consequuntur sapiente laudantium?</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Solution</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Sign Up</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2018 Quazzu
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./materialize-v1.0.0-rc.2/materialize/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel.carousel-slider').carousel({fullWidth:true});
+     
+    })
+    const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav,{});
+  </script>
+</body>
+
+</html>
